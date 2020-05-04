@@ -1,0 +1,51 @@
+﻿<Window x:Class="rpgGame.CharacterInformation"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:rpgGame"
+        mc:Ignorable="d"
+        Title="CharacterInformation" Height="450" Width="800">
+    <Grid>
+        <Label x:Name="CharacterTextLbl" Content="Character:" HorizontalAlignment="Left" Margin="52,40,0,0" VerticalAlignment="Top" Width="90"/>
+        <Label x:Name="HPTextLbl" Content="HP:" HorizontalAlignment="Left" Margin="52,60,0,0" VerticalAlignment="Top" Width="90"/>
+        <Label x:Name="LevelTextLbl" Content="Level:" HorizontalAlignment="Left" Margin="52,80,0,0" VerticalAlignment="Top" Width="90"/>
+        <Label x:Name="AgilityTextLbl" Content="Agility:" HorizontalAlignment="Left" Margin="52,120,0,0" VerticalAlignment="Top" Width="90"/>
+        <Label x:Name="LuckTextLbl" Content="Luck:" HorizontalAlignment="Left" Margin="52,140,0,0" VerticalAlignment="Top" Width="90"/>
+        <Label x:Name="StrengthTextLbl" Content="Strength:" HorizontalAlignment="Left" Margin="52,160,0,0" VerticalAlignment="Top" Width="90"/>
+        <Label x:Name="VitalityTextLbl" Content="Vitality:" HorizontalAlignment="Left" Margin="52,180,0,0" VerticalAlignment="Top" Width="90"/>
+        <Label x:Name="AttackTextLb" Content="Attack:" HorizontalAlignment="Left" Margin="52,210,0,0" VerticalAlignment="Top" Width="90"/>
+        <Label x:Name="DodgeTextLbl" Content="Dodge:" HorizontalAlignment="Left" Margin="52,230,0,0" VerticalAlignment="Top" Width="90"/>
+        <Label x:Name="XPTextLbl" Content="XP:" HorizontalAlignment="Left" Margin="52,250,0,0" VerticalAlignment="Top" Width="90"/>
+        <Label x:Name="GoldTextLbl" Content="Gold:" HorizontalAlignment="Left" Margin="52,270,0,0" VerticalAlignment="Top" Width="90"/>
+
+        <Label x:Name="CharacterDataLbl" Content="" HorizontalAlignment="Left" Margin="122,40,0,0" VerticalAlignment="Top" Width="90"/>
+        <Label x:Name="HPDataLbl" Content="" HorizontalAlignment="Left" Margin="122,60,0,0" VerticalAlignment="Top" Width="90"/>
+        <Label x:Name="LevelDataLbl" Content="" HorizontalAlignment="Left" Margin="122,80,0,0" VerticalAlignment="Top" Width="90"/>
+        <Label x:Name="AgilityDataLbl" Content="" HorizontalAlignment="Left" Margin="122,120,0,0" VerticalAlignment="Top" Width="90"/>
+        <Label x:Name="LuckDataLbl" Content="" HorizontalAlignment="Left" Margin="122,140,0,0" VerticalAlignment="Top" Width="90"/>
+        <Label x:Name="StrengthDataLbl" Content="" HorizontalAlignment="Left" Margin="122,160,0,0" VerticalAlignment="Top" Width="90"/>
+        <Label x:Name="VitalityDataLbl" Content="" HorizontalAlignment="Left" Margin="122,180,0,0" VerticalAlignment="Top" Width="90"/>
+        <Label x:Name="AttackDataLbl" Content="" HorizontalAlignment="Left" Margin="122,210,0,0" VerticalAlignment="Top" Width="90"/>
+        <Label x:Name="DodgeDataLbl" Content="" HorizontalAlignment="Left" Margin="122,230,0,0" VerticalAlignment="Top" Width="90"/>
+        <Label x:Name="XPDataLbl" Content="" HorizontalAlignment="Left" Margin="122,250,0,0" VerticalAlignment="Top" Width="90"/>
+        <Label x:Name="GoldDataLbl" Content="" HorizontalAlignment="Left" Margin="122,270,0,0" VerticalAlignment="Top" Width="90"/>
+
+        <Button x:Name ="BackButton" Content="Back" HorizontalAlignment="Left" Margin="20,380,0,0" VerticalAlignment="Top" Width="75" Click="BackButton_Click"/>
+
+        <Image x:Name="CharacterImage" HorizontalAlignment="Left" Height="256" Margin="466,40,0,0" VerticalAlignment="Top" Width="260"/>
+
+        <Button x:Name ="Agility_PlusButton" Content="+" HorizontalAlignment="Left" Margin="235,120,0,0" VerticalAlignment="Top" Width="28" Click="Agility_PlusButton_Click"/>
+        <Button x:Name ="Agility_MinusButton" Content="-" HorizontalAlignment="Left" Margin="275,120,0,0" VerticalAlignment="Top" Width="28" Click="Agility_MinusButton_Click"/>
+        <Button x:Name ="Luck_PlusButton" Content="+" HorizontalAlignment="Left" Margin="235,140,0,0" VerticalAlignment="Top" Width="28" Click="Luck_PlusButton_Click"/>
+        <Button x:Name ="Luck_MinusButton" Content="-" HorizontalAlignment="Left" Margin="275,140,0,0" VerticalAlignment="Top" Width="28" Click="Luck_MinusButton_Click"/>
+        <Button x:Name ="Strength_PlusButton" Content="+" HorizontalAlignment="Left" Margin="235,160,0,0" VerticalAlignment="Top" Width="28" Click="Strength_PlusButton_Click"/>
+        <Button x:Name ="Strength_MinusButton" Content="-" HorizontalAlignment="Left" Margin="275,160,0,0" VerticalAlignment="Top" Width="28" Click="Strength_MinusButton_Click"/>
+        <Button x:Name ="Vitality_PlusButton" Content="+" HorizontalAlignment="Left" Margin="235,180,0,0" VerticalAlignment="Top" Width="28" Click="Vitality_PlusButton_Click"/>
+        <Button x:Name ="Vitality_MinusButton" Content="-" HorizontalAlignment="Left" Margin="275,180,0,0" VerticalAlignment="Top" Width="28" Click="Vitality_MinusButton_Click"/>
+
+        <Label x:Name="PointsTextLbl" Content="Remaining:" HorizontalAlignment="Left" Margin="200,80,0,0" VerticalAlignment="Top" Width="90"/>
+        <Label x:Name="PointsDataLbl" Content="" HorizontalAlignment="Left" Margin="275,80,0,0" VerticalAlignment="Top" Width="55"/>
+
+    </Grid>
+</Window>

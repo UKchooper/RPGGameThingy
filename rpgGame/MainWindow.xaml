@@ -1,0 +1,32 @@
+﻿<Window x:Class="rpgGame.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:rpgGame"
+        mc:Ignorable="d"
+        Title="MainWindow" SizeToContent="WidthAndHeight">
+
+<Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="20" />
+            <ColumnDefinition Width="auto" />
+            <ColumnDefinition Width="20" />
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="20"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="20"/>
+        </Grid.RowDefinitions>
+        
+        <Button x:Name="CreateCharacterButton" Content="Create Character" Grid.Column="1" Grid.Row="1" Margin="0,0,0,2" Height="58" Width="155" Click="CreateCharacterButton_Click"/>
+        <Button x:Name="CheckStatsButton" Content="Check character stats" Grid.Column="1" Grid.Row="2" Margin="0,0,0,2" Height="58" Width="155" Click="CheckStatsButton_Click" IsEnabled="False"/>
+        <Button x:Name="FightButton" Content="Fight" Grid.Column="1" Grid.Row="3" Height="58" Width="155" Margin="0,0,0,2" Click="FightButton_Click" IsEnabled="False"/>
+        <Button x:Name="CustomiseButton" Content="Customise" Grid.Column="1" Grid.Row="4" Height="58" Margin="0,0,0,2" Width="155" Click="CustomiseButton_Click" IsEnabled="False"/>
+        <Button x:Name="ExitButton" Content="Exit" Grid.Column="1" Grid.Row="5" Height="58" Width="155" Click="ExitButton_Click" IsEnabled="True"/>
+    </Grid>
+</Window>

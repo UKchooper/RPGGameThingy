@@ -1,0 +1,9 @@
+C:\Users\carl.hooper\source\repos\rpgGame\rpgGame.BL\bin\Debug\rpgGame.BL.dll
+C:\Users\carl.hooper\source\repos\rpgGame\rpgGame.BL\bin\Debug\rpgGame.BL.pdb
+C:\Users\carl.hooper\source\repos\rpgGame\rpgGame.BL\obj\Debug\rpgGame.BL.csproj.CoreCompileInputs.cache
+C:\Users\carl.hooper\source\repos\rpgGame\rpgGame.BL\obj\Debug\rpgGame.BL.dll
+C:\Users\carl.hooper\source\repos\rpgGame\rpgGame.BL\obj\Debug\rpgGame.BL.pdb
+C:\Users\carl.hooper\source\repos\rpgGame\rpgGame.BL\obj\Debug\rpgGame.BL.csprojAssemblyReference.cache
+C:\Users\carl.hooper\source\repos\rpgGame\rpgGame.BL\bin\Debug\rpgGame.Common.dll
+C:\Users\carl.hooper\source\repos\rpgGame\rpgGame.BL\bin\Debug\rpgGame.Common.pdb
+C:\Users\carl.hooper\source\repos\rpgGame\rpgGame.BL\obj\Debug\rpgGame.BL.csproj.CopyComplete

@@ -1,0 +1,16 @@
+C:\Users\carl.hooper\source\repos\rpgGame\Tests\rpgGame.CommonTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\carl.hooper\source\repos\rpgGame\Tests\rpgGame.CommonTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\carl.hooper\source\repos\rpgGame\Tests\rpgGame.CommonTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\carl.hooper\source\repos\rpgGame\Tests\rpgGame.CommonTest\bin\Debug\rpgGame.CommonTest.dll
+C:\Users\carl.hooper\source\repos\rpgGame\Tests\rpgGame.CommonTest\bin\Debug\rpgGame.CommonTest.pdb
+C:\Users\carl.hooper\source\repos\rpgGame\Tests\rpgGame.CommonTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\Users\carl.hooper\source\repos\rpgGame\Tests\rpgGame.CommonTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\Users\carl.hooper\source\repos\rpgGame\Tests\rpgGame.CommonTest\bin\Debug\rpgGame.Common.dll
+C:\Users\carl.hooper\source\repos\rpgGame\Tests\rpgGame.CommonTest\bin\Debug\rpgGame.Common.pdb
+C:\Users\carl.hooper\source\repos\rpgGame\Tests\rpgGame.CommonTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\Users\carl.hooper\source\repos\rpgGame\Tests\rpgGame.CommonTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\Users\carl.hooper\source\repos\rpgGame\Tests\rpgGame.CommonTest\obj\Debug\rpgGame.CommonTest.csprojAssemblyReference.cache
+C:\Users\carl.hooper\source\repos\rpgGame\Tests\rpgGame.CommonTest\obj\Debug\rpgGame.CommonTest.csproj.CoreCompileInputs.cache
+C:\Users\carl.hooper\source\repos\rpgGame\Tests\rpgGame.CommonTest\obj\Debug\rpgGame.CommonTest.csproj.CopyComplete
+C:\Users\carl.hooper\source\repos\rpgGame\Tests\rpgGame.CommonTest\obj\Debug\rpgGame.CommonTest.dll
+C:\Users\carl.hooper\source\repos\rpgGame\Tests\rpgGame.CommonTest\obj\Debug\rpgGame.CommonTest.pdb
