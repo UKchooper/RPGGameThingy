@@ -40,8 +40,8 @@ namespace rpgGame
         }
         private void ArcherButton_Click(object sender, RoutedEventArgs e)
         {
-            selectedName = ArcherButton.Content.ToString();
-            EnableDisableButton();
+            //selectedName = ArcherButton.Content.ToString();
+            //EnableDisableButton();
             DescriptionTextBlock.Text = charInfo.AddDescription(selectedName);
             ConfirmCharButton.IsEnabled = true;
             ConfirmSelectionText.Content = charInfo.ConfirmSelect(selectedName);
@@ -52,7 +52,7 @@ namespace rpgGame
         private void MageButton_Click(object sender, RoutedEventArgs e)
         {
             selectedName = MageButton.Content.ToString();
-            EnableDisableButton();
+            //EnableDisableButton();
             DescriptionTextBlock.Text = charInfo.AddDescription(selectedName);
             ConfirmCharButton.IsEnabled = true;
             ConfirmSelectionText.Content = charInfo.ConfirmSelect(selectedName);
@@ -63,7 +63,7 @@ namespace rpgGame
         private void WarriorButton_Click(object sender, RoutedEventArgs e)
         {
             selectedName = WarriorButton.Content.ToString();
-            EnableDisableButton();
+            //EnableDisableButton();
             DescriptionTextBlock.Text = charInfo.AddDescription(selectedName);
             ConfirmCharButton.IsEnabled = true;
             ConfirmSelectionText.Content = charInfo.ConfirmSelect(selectedName);
@@ -80,24 +80,16 @@ namespace rpgGame
             //main.FightButton.IsEnabled = true;
             //main.Show();
         }
-        private void BackButton_Click(object sender, RoutedEventArgs e)
-        {
-            MainWindow main = new MainWindow();
 
-            //this.Visibility = Visibility.Hidden;
-            //main.CreateCharacterButton.IsEnabled = true;
-            //main.CheckStatsButton.IsEnabled = false;
-            main.Show();
-        }
-        public void EnableDisableButton()
-        {
-            var characterNameArray = new[] { ArcherButton, MageButton, WarriorButton };
+        //public void EnableDisableButton()
+        //{
+        //    var characterNameArray = new[] { ArcherButton, MageButton, WarriorButton };
 
-            foreach (var charName in characterNameArray)
-            {
-                if (charName.IsMouseOver ? charName.IsEnabled = false : charName.IsEnabled = true);
-            }
-        }
+        //    foreach (var charName in characterNameArray)
+        //    {
+        //        if (charName.IsMouseOver ? charName.IsEnabled = false : charName.IsEnabled = true);
+        //    }
+        //}
 
         private void ConfirmSelection_MouseDown(object sender, MouseButtonEventArgs e)
         {

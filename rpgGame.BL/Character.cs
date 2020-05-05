@@ -39,14 +39,12 @@ namespace rpgGame.BL
             new Items("Strong Health potion", 75, 15, "Description: This item heals 75 of your Health Points")
         };
 
-
         CharacterStats[] characterData = new CharacterStats[]
         {
             new CharacterStats("Archer", 100, 5, 4, 1, 2, 1),
             new CharacterStats("Mage", 100, 5, 1, 1, 1, 5),
             new CharacterStats("Warrior", 100, 5, 2, 1, 4, 1)
         };
-
         public string AddDescription(string selectedName)
         {
             switch (selectedName)

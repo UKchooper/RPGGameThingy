@@ -28,6 +28,10 @@ namespace rpgGame
         {
             Application.Current.Shutdown();
         }
+        private void CharacterUI_Loaded(object sender, RoutedEventArgs e)
+        {
+
+        }
 
         //private void CreateCharacterButton_Click(object sender, RoutedEventArgs e)
         //{

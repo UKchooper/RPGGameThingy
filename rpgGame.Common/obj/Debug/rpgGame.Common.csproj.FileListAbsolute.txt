@@ -5,7 +5,6 @@ C:\Users\carl.hooper\source\repos\rpgGame\rpgGame.Common\obj\Debug\rpgGame.Commo
 C:\Users\carl.hooper\source\repos\rpgGame\rpgGame.Common\obj\Debug\rpgGame.Common.pdb
 C:\Users\carl.hooper\Documents\Projects\RPGGameThingy\rpgGame.Common\bin\Debug\rpgGame.Common.dll
 C:\Users\carl.hooper\Documents\Projects\RPGGameThingy\rpgGame.Common\bin\Debug\rpgGame.Common.pdb
-C:\Users\carl.hooper\Documents\Projects\RPGGameThingy\rpgGame.Common\obj\Debug\rpgGame.Common.csprojAssemblyReference.cache
 C:\Users\carl.hooper\Documents\Projects\RPGGameThingy\rpgGame.Common\obj\Debug\rpgGame.Common.csproj.CoreCompileInputs.cache
 C:\Users\carl.hooper\Documents\Projects\RPGGameThingy\rpgGame.Common\obj\Debug\rpgGame.Common.dll
 C:\Users\carl.hooper\Documents\Projects\RPGGameThingy\rpgGame.Common\obj\Debug\rpgGame.Common.pdb
