@@ -18,7 +18,7 @@ namespace rpgGame
     /// <summary>
     /// Interaction logic for Fight.xaml
     /// </summary>
-    public partial class FightUI : Window
+    public partial class FightUI : UserControl
     {
         public FightUI()
         {
@@ -39,9 +39,9 @@ namespace rpgGame
             MainWindow main = new MainWindow();
 
             this.Visibility = Visibility.Hidden;
-            main.CheckStatsButton.IsEnabled = true;
-            main.CreateCharacterButton.IsEnabled = false;
-            main.FightButton.IsEnabled = true;
+            //main.CheckStatsButton.IsEnabled = true;
+            //main.CreateCharacterButton.IsEnabled = false;
+            //main.FightButton.IsEnabled = true;
             main.Show();
         }
         private void FightButton_Click(object sender, RoutedEventArgs e)

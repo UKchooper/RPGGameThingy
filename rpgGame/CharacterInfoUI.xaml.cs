@@ -18,13 +18,13 @@ namespace rpgGame
     /// <summary>
     /// Interaction logic for CharacterInformation.xaml
     /// </summary>
-    public partial class CharacterInformation : Window
+    public partial class CharacterInformation : UserControl
     {
         public CharacterInformation()
         {
             InitializeComponent();
 
-            CharacterImage.Source = new BitmapImage(new Uri($@"C:\Users\carl.hooper\source\repos\rpgGame\rpgGame\Resources\{Character.Name}.png"));
+         //   CharacterImage.Source = new BitmapImage(new Uri($@"C:\Users\carl.hooper\source\repos\rpgGame\rpgGame\Resources\{Character.Name}.png"));
 
             CharacterDataLbl.Content = Character.Name;
             HPDataLbl.Content = $"{Character.HP} / {Character.HPLimit}";
@@ -65,9 +65,9 @@ namespace rpgGame
             MainWindow main = new MainWindow();
 
             this.Visibility = Visibility.Hidden;
-            main.CheckStatsButton.IsEnabled = true;
-            main.CreateCharacterButton.IsEnabled = false;
-            main.FightButton.IsEnabled = true;
+            //main.CheckStatsButton.IsEnabled = true;
+            //main.CreateCharacterButton.IsEnabled = false;
+            //main.FightButton.IsEnabled = true;
             main.Show();
         }
 

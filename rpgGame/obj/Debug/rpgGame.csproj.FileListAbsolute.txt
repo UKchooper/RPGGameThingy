@@ -24,3 +24,4 @@ C:\Users\carl.hooper\source\repos\rpgGame\rpgGame\obj\Debug\CharacterInfoUI.g.cs
 C:\Users\carl.hooper\source\repos\rpgGame\rpgGame\obj\Debug\CharacterInfoUI.baml
 C:\Users\carl.hooper\source\repos\rpgGame\rpgGame\obj\Debug\FightUI.g.cs
 C:\Users\carl.hooper\source\repos\rpgGame\rpgGame\obj\Debug\FightUI.baml
+C:\Users\carl.hooper\source\repos\rpgGame\rpgGame\obj\Debug\GeneratedInternalTypeHelper.g.cs

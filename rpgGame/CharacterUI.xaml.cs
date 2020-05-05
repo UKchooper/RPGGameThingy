@@ -18,7 +18,7 @@ namespace rpgGame
     /// <summary>
     /// Interaction logic for Character.xaml
     /// </summary>
-    public partial class CharacterUI : Window
+    public partial class CharacterUI : UserControl
     {
         Character charInfo = new Character();
 
@@ -72,21 +72,21 @@ namespace rpgGame
         }
         private void ConfirmCharButton_Click(object sender, RoutedEventArgs e)
         {
-            MainWindow main = new MainWindow();
+            //MainWindow main = new MainWindow();
 
-            this.Visibility = Visibility.Hidden;
-            main.CreateCharacterButton.IsEnabled = false;
-            main.CheckStatsButton.IsEnabled = true;
-            main.FightButton.IsEnabled = true;
-            main.Show();
+            //this.Visibility = Visibility.Hidden;
+            //main.CreateCharacterButton.IsEnabled = false;
+            //main.CheckStatsButton.IsEnabled = true;
+            //main.FightButton.IsEnabled = true;
+            //main.Show();
         }
         private void BackButton_Click(object sender, RoutedEventArgs e)
         {
             MainWindow main = new MainWindow();
 
-            this.Visibility = Visibility.Hidden;
-            main.CreateCharacterButton.IsEnabled = true;
-            main.CheckStatsButton.IsEnabled = false;
+            //this.Visibility = Visibility.Hidden;
+            //main.CreateCharacterButton.IsEnabled = true;
+            //main.CheckStatsButton.IsEnabled = false;
             main.Show();
         }
         public void EnableDisableButton()
@@ -97,6 +97,12 @@ namespace rpgGame
             {
                 if (charName.IsMouseOver ? charName.IsEnabled = false : charName.IsEnabled = true);
             }
+        }
+
+        private void ConfirmSelection_MouseDown(object sender, MouseButtonEventArgs e)
+        {
+
+
         }
     }
 }

@@ -5,9 +5,37 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:rpgGame"
         mc:Ignorable="d"
-        Title="MainWindow" SizeToContent="WidthAndHeight">
+        Title="MainWindow" Height="600" Width="600">
 
-<Grid>
+    <DockPanel>
+        <StackPanel Orientation="Horizontal" DockPanel.Dock="Bottom" Margin="2,5">
+        </StackPanel>
+        <TabControl Name="tcSample">
+            <TabItem Header="General">
+                <Label Content="Welcome to the game etc etc" />
+            </TabItem>
+            <TabItem Header="Choose a character">
+                <local:CharacterUI/>
+            </TabItem>
+            <TabItem Header="Character Details">
+                <local:CharacterInformation/>
+            </TabItem>
+            <TabItem Header="Fight">
+                <local:FightUI/>
+            </TabItem>
+            <TabItem Header="Exit" MouseUp="Exit_MouseUp"/>
+        </TabControl>
+    </DockPanel>
+    <!--<Grid>
+        <TabControl>
+            <TabItem Header="General" Width="100" >
+                <Label Content="Content goes here..." />
+            </TabItem>
+            <TabItem Header="Security" Width="100" />
+            <TabItem Header="Details" Width="100" />
+        </TabControl>
+    </Grid>-->
+<!--<Grid>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="20" />
             <ColumnDefinition Width="auto" />
@@ -28,5 +56,5 @@
         <Button x:Name="FightButton" Content="Fight" Grid.Column="1" Grid.Row="3" Height="58" Width="155" Margin="0,0,0,2" Click="FightButton_Click" IsEnabled="False"/>
         <Button x:Name="CustomiseButton" Content="Customise" Grid.Column="1" Grid.Row="4" Height="58" Margin="0,0,0,2" Width="155" Click="CustomiseButton_Click" IsEnabled="False"/>
         <Button x:Name="ExitButton" Content="Exit" Grid.Column="1" Grid.Row="5" Height="58" Width="155" Click="ExitButton_Click" IsEnabled="True"/>
-    </Grid>
+    </Grid>-->
 </Window>

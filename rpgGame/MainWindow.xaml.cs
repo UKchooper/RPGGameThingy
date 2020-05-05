@@ -24,38 +24,37 @@ namespace rpgGame
         {
             InitializeComponent();
         }
-
-        private void CreateCharacterButton_Click(object sender, RoutedEventArgs e)
+        private void Exit_MouseUp(object sender, MouseButtonEventArgs e)
         {
-            CharacterUI charWin = new CharacterUI();
-
-            this.Visibility = Visibility.Hidden;
-            charWin.Show();
-        }
-        private void CheckStatsButton_Click(object sender, RoutedEventArgs e)
-        {
-            CharacterInformation charInfo = new CharacterInformation();
-
-            this.Visibility = Visibility.Hidden;
-            charInfo.Show();
+            Application.Current.Shutdown();
         }
 
-        private void FightButton_Click(object sender, RoutedEventArgs e)
-        {
-            FightUI fightPage = new FightUI();
+        //private void CreateCharacterButton_Click(object sender, RoutedEventArgs e)
+        //{
+        //    CharacterUI charWin = new CharacterUI();
 
-            this.Visibility = Visibility.Hidden;
-            fightPage.Show();
-        }
+        //    this.Visibility = Visibility.Hidden;
+        //    charWin.Show();
+        //}
+        //private void CheckStatsButton_Click(object sender, RoutedEventArgs e)
+        //{
+        //    CharacterInformation charInfo = new CharacterInformation();
 
-        private void ExitButton_Click(object sender, RoutedEventArgs e)
-        {
-            System.Windows.Application.Current.Shutdown();
-        }
+        //    this.Visibility = Visibility.Hidden;
+        //    charInfo.Show();
+        //}
 
-        private void CustomiseButton_Click(object sender, RoutedEventArgs e)
-        {
+        //private void FightButton_Click(object sender, RoutedEventArgs e)
+        //{
+        //    FightUI fightPage = new FightUI();
 
-        }
+        //    this.Visibility = Visibility.Hidden;
+        //    fightPage.Show();
+        //}
+
+        //private void ExitButton_Click(object sender, RoutedEventArgs e)
+        //{
+        //    System.Windows.Application.Current.Shutdown();
+        //}
     }
 }
