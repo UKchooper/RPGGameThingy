@@ -24,6 +24,7 @@
                 <local:FightUI/>
             </TabItem>
             <TabItem Header="Exit" MouseUp="Exit_MouseUp"/>
+            <TabItem Header="This works!"/>
         </TabControl>
     </DockPanel>
     <!--<Grid>
